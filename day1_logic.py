@@ -9,11 +9,15 @@ item_price = float(input("Enter Item Price: "))
 if item_price >= 10000:
     discount = item_price * 0.20
     final_bill = item_price - discount
-    print(f"Congratulations {customer_name}! You got a 20% VIP discount. Your final bill is: {final_bill}")
+    print(
+        f"Congratulations {customer_name}! You got a 20% VIP discount. Your final bill is: {final_bill}"
+    )
 elif item_price >= 5000:
     discount = item_price * 0.10
     final_bill = item_price - discount
-    print(f"Congratulations {customer_name}! You got a 10% discount. Your final bill is: {final_bill}")
+    print(
+        f"Congratulations {customer_name}! You got a 10% discount. Your final bill is: {final_bill}"
+    )
 else:
     discount = 0
     final_bill = item_price
