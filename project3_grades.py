@@ -15,4 +15,4 @@ elif student_Mark >= 60:
 else:
     print("Keep trying! Failed grade D")
 
-grade_check()
+grade_check() 
