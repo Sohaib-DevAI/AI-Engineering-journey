@@ -1,1 +1,0 @@
- secrat_passwor
